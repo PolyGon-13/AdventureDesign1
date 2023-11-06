@@ -11,8 +11,8 @@ SoftwareSerial soft_serial(10, 11); // DYNAMIXELShield UART RX/TX
 #endif
 
 
-const uint8_t DXL_ID1 = 0;
-const uint8_t DXL_ID2 = 1;
+const uint8_t DXL_ID1 = 1;
+const uint8_t DXL_ID2 = 2;
 const uint8_t DXL_ID3 = 3;
 const uint8_t DXL_ID4 = 4;
 const float DXL_PROTOCOL_VERSION = 2.0;
@@ -57,17 +57,8 @@ void setup() {
 }
 
 void loop() {
-  dxl_1.setGoalVelocity(DXL_ID1, 100);
-  dxl_2.setGoalVelocity(DXL_ID2, 100);
-  dxl_3.setGoalVelocity(DXL_ID3, 100);
-  dxl_4.setGoalVelocity(DXL_ID4, 100);
-
-  delay(10000);
-
-  dxl_1.setGoalVelocity(DXL_ID1, 0);
-  dxl_2.setGoalVelocity(DXL_ID2, 0);
-  dxl_3.setGoalVelocity(DXL_ID3, 0);
-  dxl_4.setGoalVelocity(DXL_ID4, 0);
-
-  delay(1000);
+  dxl_1.setGoalVelocity(DXL_ID1, -200);
+  dxl_2.setGoalVelocity(DXL_ID2, 200);
+  dxl_3.setGoalVelocity(DXL_ID3, -200);
+  dxl_4.setGoalVelocity(DXL_ID4, 200);
 }
