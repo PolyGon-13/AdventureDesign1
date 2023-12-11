@@ -1,9 +1,9 @@
-# 라즈베리파이4B에 우분투 22.04를 설치하고 opencv 4.8.0을 이용해 aruco marker를 인식하는 코드를 작성하였다.
-
-## assets
+## 라즈베리파이4B에 우분투 22.04를 설치하고 opencv 4.8.0을 이용해 aruco marker를 인식하는 코드를 작성하였다.
+---
+### assets
 test 디렉터리의 aruco_make.py를 이용해 생성한 aruco maker를 담았다.
-
-## test
+---
+### test
 1. camera_test.py
 라즈베리파이의 카메라가 켜지는지 확인하는 코드
 
@@ -13,8 +13,8 @@ test 디렉터리의 aruco_make.py를 이용해 생성한 aruco maker를 담았�
 3. aruco_file_detect_NoModule.py
 aruco 모듈을 사용하지 않고 디렉터리 내의 aruco marker의 id를 출력하는 코드
 (어째서인지 aruco_make.py에서 설정한 id와 다른 id가 출력된다...)
-
-## src
+---
+### src
 1. aruco_camera_NoModule.py
 aruco 모듈을 사용하지 않고 라즈베리파이의 카메라를 이용해 aruco marker를 인식하면 id를 출력하는 코드
 (카메라 성능 문제인지 aruco 모듈을 사용하지 않음에 따른 문제인지 동일한 aruco marker를 인식시켜도 다른 id가 계속 출력된다...)
