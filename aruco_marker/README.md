@@ -1,4 +1,4 @@
-라즈베리파이4B에 우분투 22.04를 설치하고 opencv 4.8.0을 이용해 aruco marker를 인식하는 코드를 작성하였다.
+# 라즈베리파이4B에 우분투 22.04를 설치하고 opencv 4.8.0을 이용해 aruco marker를 인식하는 코드를 작성하였다.
 
 ## assets
 test 디렉터리의 aruco_make.py를 이용해 생성한 aruco maker를 담았다.
