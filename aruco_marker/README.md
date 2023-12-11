@@ -10,15 +10,15 @@ test 디렉터리의 aruco_make.py를 이용해 생성한 aruco maker를 담았�
 2. aruco_make.py
 파이썬 코드를 이용해 원하는 id의 aruco marker를 생성하는 코드
 
-## src
-1. aruco_file_detect_NoModule.py
+3. aruco_file_detect_NoModule.py
 aruco 모듈을 사용하지 않고 디렉터리 내의 aruco marker의 id를 출력하는 코드
 (어째서인지 aruco_make.py에서 설정한 id와 다른 id가 출력된다...)
 
-2. aruco_camera_NoModule.py
+## src
+1. aruco_camera_NoModule.py
 aruco 모듈을 사용하지 않고 라즈베리파이의 카메라를 이용해 aruco marker를 인식하면 id를 출력하는 코드
 (카메라 성능 문제인지 aruco 모듈을 사용하지 않음에 따른 문제인지 동일한 aruco marker를 인식시켜도 다른 id가 계속 출력된다...)
 
-3. aruco_camera.py
+2. aruco_camera.py
 aruco 모듈을 사용하여 라즈베리파이 카메라로 aruco marker를 인식하여 id를 출력하는 코드
 (카메라로 aruco marker를 인식시켜도 아무런 값도 출력되지 않는다...)
