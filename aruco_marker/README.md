@@ -3,12 +3,14 @@
 ## assets
 test 디렉터리의 aruco_make.py를 이용해 생성한 aruco maker를 담았다.
 
+
 ## test
 1. camera_test.py
 라즈베리파이의 카메라가 켜지는지 확인하는 코드
 
 2. aruco_make.py
 파이썬 코드를 이용해 원하는 id의 aruco marker를 생성하는 코드
+
 
 ## src
 1. aruco_file_detect_NoModule.py
