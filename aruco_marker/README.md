@@ -2,6 +2,7 @@
 ---
 ### assets
 test 디렉터리의 aruco_make.py를 이용해 생성한 aruco maker를 담았다.
+
 ---
 ### test
 1. camera_test.py
@@ -13,6 +14,7 @@ test 디렉터리의 aruco_make.py를 이용해 생성한 aruco maker를 담았�
 3. aruco_file_detect_NoModule.py
 aruco 모듈을 사용하지 않고 디렉터리 내의 aruco marker의 id를 출력하는 코드
 (어째서인지 aruco_make.py에서 설정한 id와 다른 id가 출력된다...)
+
 ---
 ### src
 1. aruco_camera_NoModule.py
