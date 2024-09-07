@@ -4,7 +4,7 @@
 test 디렉터리의 aruco_make.py를 이용해 생성한 aruco maker를 담았다.
 
 ---
-### src
+### sripts
 1. aruco_camera_NoModule
 aruco 모듈을 사용하지 않고 라즈베리파이의 카메라를 이용해 aruco marker를 인식하면 id를 출력하는 코드
 (카메라 성능 문제인지 aruco 모듈을 사용하지 않음에 따른 문제인지 동일한 aruco marker를 인식시켜도 다른 id가 계속 출력된다...)
